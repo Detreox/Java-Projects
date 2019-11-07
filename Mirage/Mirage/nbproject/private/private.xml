@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/mirage/YouTubeController.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>22</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/BrowserController.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLHomePage.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLLogin.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/Main.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FacebookController.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLFacebook.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/NetflixController.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/YouTubeController.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLGmail.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLYouTube.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLNetflix.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLMovie.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/FXMLBrowser.fxml</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/LoginController.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/HomePageController.java</file>
+            <file>file:/home/student/Desktop/Mirage/src/mirage/GmailController.java</file>
+        </group>
+    </open-files>
+</project-private>

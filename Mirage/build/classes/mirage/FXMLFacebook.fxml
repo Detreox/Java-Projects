@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mirage.FacebookController">
+    <children>
+        <Button fx:id="facebookHomeButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#homebuttonFacebook" prefHeight="40.0" prefWidth="40.0" style="-fx-background-image: url(&quot;home.png&quot;);" />
+        <WebView fx:id="viewFacebook" layoutY="68.0" prefHeight="533.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="67.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mirage.HomePageController">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="500.0">
+            <image>
+                <Image url="@../homepage_background.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="browserButton" layoutX="220.0" layoutY="80.0" mnemonicParsing="false" onAction="#gotoBrowser" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;internet.png&quot;);" />
+        <Button fx:id="messengerButton" layoutX="345.0" layoutY="80.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;messenger.png&quot;);" />
+        <Button fx:id="youtubeButton" layoutX="93.0" layoutY="80.0" mnemonicParsing="false" onAction="#gotoYouTube" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;youtube.png&quot;);" />
+        <Button fx:id="movieButton" layoutX="220.0" layoutY="258.0" mnemonicParsing="false" onAction="#gotoMovie" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;movie.png&quot;);" />
+        <Button layoutX="345.0" layoutY="448.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;internet.png&quot;);" />
+        <Button layoutX="93.0" layoutY="448.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;internet.png&quot;);" />
+        <Button fx:id="gmailButton" layoutX="345.0" layoutY="258.0" mnemonicParsing="false" onAction="#gotoGmail" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;gmail.png&quot;);" />
+        <Button fx:id="netflixButton" layoutX="220.0" layoutY="448.0" mnemonicParsing="false" onAction="#gotoNetflix" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;netflix.png&quot;);" />
+        <Button fx:id="facebookButton" layoutX="93.0" layoutY="258.0" mnemonicParsing="false" onAction="#gotoFacebook" prefHeight="60.0" prefWidth="60.0" style="-fx-background-image: url(&quot;facebook.png&quot;);" />
+        <MenuBar prefHeight="29.0" prefWidth="500.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Account">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#accountinfoAction" text="Info" />
+                        <MenuItem mnemonicParsing="false" onAction="#accounteditAction" text="Edit" />
+                        <MenuItem mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="About">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#softwareinfoAction" text="Software Info" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

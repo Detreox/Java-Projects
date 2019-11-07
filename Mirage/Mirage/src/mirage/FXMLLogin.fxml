@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="600" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mirage.LoginController">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="800.0">
+            <image>
+                <Image url="@../login_background.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="exitButton" layoutX="46.0" layoutY="518.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="68.0" prefWidth="149.0" style="-fx-background-color: black;" text="Exit" textFill="#fdff9f">
+            <font>
+                <Font name="BlackHole BB" size="37.0" />
+            </font>
+        </Button>
+        <Label fx:id="usernameLabel" alignment="CENTER" layoutX="27.0" layoutY="72.0" prefHeight="36.0" prefWidth="186.0" text="Username" textFill="#fdff9f">
+            <font>
+                <Font name="BlackHole BB" size="35.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usernameText" layoutX="27.0" layoutY="107.0" prefHeight="25.0" prefWidth="186.0" style="-fx-background-color: black; -fx-border-color: #fdff9f; -fx-text-fill: #fdff9f; -fx-border-width: 1.5;" />
+        <Button fx:id="loginButton" defaultButton="true" layoutX="46.0" layoutY="214.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="68.0" prefWidth="149.0" style="-fx-background-color: black;" text="Login" textFill="#fdff9f">
+            <font>
+                <Font name="BlackHole BB" size="37.0" />
+            </font>
+        </Button>
+        <Label fx:id="passwordLabel" alignment="CENTER" layoutX="27.0" layoutY="132.0" prefHeight="36.0" prefWidth="186.0" text="Password" textFill="#fdff9f">
+            <font>
+                <Font name="BlackHole BB" size="35.0" />
+            </font>
+        </Label>
+        <PasswordField fx:id="passwordText" layoutX="27.0" layoutY="168.0" prefHeight="25.0" prefWidth="186.0" style="-fx-background-color: black; -fx-border-color: #fdff9f; -fx-text-fill: #fdff9f; -fx-border-width: 1.5;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </PasswordField>
+    </children>
+</AnchorPane>

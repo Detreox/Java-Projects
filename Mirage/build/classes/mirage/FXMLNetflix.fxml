@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mirage.NetflixController">
+   <children>
+      <WebView fx:id="viewNetflix" layoutY="70.0" prefHeight="529.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0" />
+      <Button fx:id="netflixButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#homebuttonNetflix" prefHeight="40.0" prefWidth="40.0" style="-fx-background-image: url(&quot;home.png&quot;);" />
+   </children>
+</AnchorPane>
